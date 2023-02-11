@@ -10,6 +10,11 @@ This example shows the following:
 
 > **Note:** This example is using Next.js "headless" through the local dev server, using `next dev` to serve API Routes. It's _not_ doing any rendering of pages, so React is not being used. Why? [Hono](https://honojs.dev/) does not currently work with vanilla Vercel Edge Functions, which are served through `vercel dev`. Hono `v3` adds support for Next.js, which enabled me to create this example.
 
+## Example
+
+- https://hono-rust-wasm.vercel.app/api/hello
+- https://hono-rust-wasm.vercel.app/api/world
+
 ## Running Locally
 
 ```
